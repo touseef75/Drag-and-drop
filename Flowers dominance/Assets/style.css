@@ -39,3 +39,10 @@ button{
 #next:hover{
     border: dashed 2px black;
 }
+@media screen and (max-width:768px){
+			.head{
+                transform: scale(0.4);
+                margin-left: -30px;
+               
+            }
+		 } 
