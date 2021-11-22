@@ -44,7 +44,11 @@ but.addEventListener("click",function(){
         video.src = arr[num].video;
     cont.style.background = arr[num].cont;
     document.getElementById("logo").src = arr[num].logo;
+    but.style.display = "none";
+    document.getElementById("next2").style.display = "";
+
     num = -1;
+
     }else{
         video.src = arr[num].video;
     cont.style.background = arr[num].cont;
