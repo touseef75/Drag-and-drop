@@ -19,46 +19,30 @@ start.addEventListener("click",function(){
 let arr = [
     {
         video:"./images/part1.mp4",
-        cont:"#2b80ae",
-        div:"#2b80ae",
+        cont:"white",
+        div:"white",
     },
     {
-        video:"./images/part2.mp4",
-        cont:"#2b80ae",
-        div:"#2b80ae",
+        video:"./images/step3 (3).mp4",
+        cont:"white",
+        div:"white",
 
         
 
     },
     {
-        video:"./images/part3.mp4",
-        cont:"#15719c",
-        div:"#15719c",
+        video:"./images/end.mp4",
+        cont:"white",
+        div:"white",
 
     },
-    {
-        video:"./images/part4.mp4",
-        cont:"#15719c",
-        div:"#15719c",
-
-    },
-    {
-        video:"./images/part5.mp4",
-        cont:"#15719c",
-        div:"#15719c",
-
-    },
-     {
-        video:"./images/part6.mp4",
-        cont:"#15719c",
-        div:"#15719c",
-
-    },
+    
+    
 ]
 let num = 0;
 but.addEventListener("click",function(){
     num++;
-    if(num == 5){
+    if(num == 2){
         video.src = arr[num].video;
     cont.style.background = arr[num].cont;
     div.style.background = arr[num].div;

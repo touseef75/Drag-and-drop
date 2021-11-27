@@ -6,7 +6,7 @@
 .container{
     height: 100vh;
     width: 100%;
-    background-color: #2b80ae;
+    background-color: #1d465c;
 }
 button{
     outline: none;
@@ -16,14 +16,14 @@ button{
     font-style: italic;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 5px;                                                                                   
     cursor: pointer;
      color: white;
 
 }
 .head{
-    color: white;
-    -webkit-text-stroke: 0.2vw #045480;
+    color: #1d9de2;
+    -webkit-text-stroke: 0.2vw black;
     font-size: 4rem;
     text-align: center;
 }
