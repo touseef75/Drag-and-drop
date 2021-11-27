@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+button{
+    outline: none;
+    
+    background-color: #540204;
+    padding: 10px 50px 10px 50px;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+     color: white;
+
+}
+.head{
+    color: red;
+    -webkit-text-stroke: 0.2vw white;
+    font-size: 4rem;
+    text-align: center;
+}
+.but{
+    text-align: end;
+    width: 90%;
+    cursor: pointer;
+}
+#next{
+    transition: 4s;
+
+}
+#next:hover{
+    border: dashed 2px black;
+}
+@media screen and (max-width:768px){
+			.head{
+                transform: scale(0.4);
+                margin-left: -30px;
+               
+            }
+		 } 
