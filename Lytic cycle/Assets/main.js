@@ -47,17 +47,18 @@ start.addEventListener("click",function(){
     
 // });
 
-let ans1 = document.querySelectorAll("#ans1");
-ans1.forEach(ans1 => {
-         ans1.addEventListener("click",function(){
-        if(ans1.textContent == "b) Viruses that attack bacteria."){
-            ans1.innerHTML = "b) Viruses that attack bacteria.☑️";
-        }else{
-            alert("Wrong");
-        }
-    });
+// let ans1 = document.querySelectorAll("#ans1");
+// ans1.forEach(ans1 => {
+//          ans1.addEventListener("click",function(){
+//         if(ans1.textContent == "b) Viruses that attack bacteria."){
+//             ans1.innerHTML = "b) Viruses that attack bacteria.☑️";
+//             document.getElementById("ma").style.display = "none";
+//         }else{
+//             alert("Wrong");
+//         }
+//     });
    
-});
+// });
 
 
 

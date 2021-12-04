@@ -50,8 +50,8 @@ let arr = [
     },
      {
         video:"./images/step6.mp4",
-        cont:"#fcfeb4",
-        div:"#fcfeb4",
+        cont:"#fcf7b0",
+        div:"#fcf7b0",
 
     },
 ]
