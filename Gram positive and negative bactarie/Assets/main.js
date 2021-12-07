@@ -18,18 +18,18 @@ start.addEventListener("click",function(){
 
 let arr = [
     {
-        video:"./images/Gram Staining Procedure Animation Microbiology - Principle, Procedure, Interpretation (online-video-cutter.com) (3).mp4",
-        cont:"black",
+        video:"./images/step.mp4",
+        cont:"#414953",
         div:"#83898e",
     },
      {
         video:"./images/Gram Staining Procedure Animation Microbiology - Principle, Procedure, Interpretation (online-video-cutter.com).mp4",
-        cont:"black",
-        div:"#b3dde8",
+        cont:"#25588c",
+        div:"#cde7ed",
     },
     {
         video:"./images/step3 (3).mp4",
-        cont:"black",
+        cont:"#1272ba",
         div:"#b3dde8",
 
     },
